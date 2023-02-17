@@ -1,0 +1,25 @@
+.navbar .navbar-nav .nav-link{
+
+    color: white;
+
+}
+
+.intro{
+
+    background-image: url("../images/bg.png");
+    color: whitesmoke;
+
+}
+
+body{
+
+    background: white;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+footer{
+
+    color: whitesmoke;
+
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Interface de Classificação</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style/bootstrap.min.css">
+</head>
+
+<body>
+    <div>
+
+    </div>
+
+    <div class="container">
+      <form action="/predicaoform" method="post">
+        <fieldset style="margin-left: 100px; margin-right: 100px; background-color: #e9e6e6">
+
+            <div style="text-align: center">
+                <h1>Previsão banco de dados Iris</h1>
+                <h5>Estou tendo um problema o modelo.pkl da minha base de dados - l4d2</h5>
+                <h5>Então por enquanto estarei usando o banco de dados iris no lugar até eu consegui corrigir o problema</h5>
+            </div><br>
+
+            <div class="form-group">
+                <label for="sepall">Sepal Length: </label>
+                <input type="text" id="sepall" name="sepall" class="form-control" value="0">
+            </div><br>
+
+            <div class="form-group">
+                <label for="sepalw">Sepal Width: </label>
+                <input type="text" id="sepalw" name="sepalw" class="form-control" value="0">
+            </div><br>
+
+            <div class="form-group">
+                <label for="petall">Petal Length: </label>
+                <input type="text" id="petall" name="petall" class="form-control" value="0">
+            </div><br>
+
+            <div class="form-group">
+                <label for="petalw">Petal Width: </label>
+                <input type="text" id="petalw" name="petalw" class="form-control" value="0">
+            </div><br>
+
+            <button type="submit" class="btn btn-primary btn-salvar">Salvar</button><br>
+
+        </fieldset>
+      </form>
+    </div>
+
+</body>
+
+</html>
